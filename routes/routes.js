@@ -1,8 +1,7 @@
-import { currencyRateFinding } from "../controllers/currencyController";
-
 const express = require("express");
 const router = express.Router();
+const { currencyRateFinding } = require("../controllers/currencyController");
 
 router.get("/currencyRate", currencyRateFinding);
 
-export default router;
+module.exports = router;
