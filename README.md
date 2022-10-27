@@ -40,7 +40,7 @@ sample output
 
 - for bitcoin data based on user provided currency code
 
-1. http://localhost:5000/api/getData/?currencyCode=AED
+1. http://localhost:5000/api/bitcoinData/?currencyCode=AED
 
 - sample output
 
