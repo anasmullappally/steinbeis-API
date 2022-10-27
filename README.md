@@ -31,9 +31,11 @@ Now you can run `npm start` in the terminal and the application should work.
 1. http://localhost:5000/api/currencyRate/?currencyCode=AED
 
 sample output
+
 {
-"rate": 0.044791,
-"currencyCode": "AED"
+    
+    "rate": 0.135413,
+    "currencyCode": "MAD"
 }
 
 - for bitcoin data based on user provided currency code
@@ -43,17 +45,19 @@ sample output
 - sample output
 
 {
-"symbol": "btcinr",
-"baseAsset": "btc",
-"quoteAsset": "AED",
-"openPrice": 77962.497944,
-"lowPrice": 77961.91566099999,
-"highPrice": 80024.093301,
-"lastPrice": 78384.20520899999,
-"volume": "7.08729",
-"bidPrice": 78384.20520899999,
-"askPrice": 78429.041,
-"at": 1666869033000
+
+    "symbol": "btcinr",
+    "baseAsset": "btc",
+    "quoteAsset": "AED",
+    "openPrice": 77962.497944,
+    "lowPrice": 77961.91566099999,
+    "highPrice": 80024.093301,
+    "lastPrice": 78384.20520899999,
+    "volume": "7.08729",
+    "bidPrice": 78384.20520899999,
+    "askPrice": 78429.041,
+    "at": 1666869033000
+
 }
 
 ## License
